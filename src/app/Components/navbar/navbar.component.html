@@ -1,18 +1,25 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" routerLink="/about">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+<nav class="navbar navbar-expand-lg bg-light">
+	<div class="container">
+	<div class="d-flex align-items-center flex-grow-1">
+		<a class="navbar-brand me-0 ms-4" href="#">Navbar</a>
+		<a class="nav-link active mx-3" aria-current="page" href="#">الرئيسية</a>
+		<a class="nav-link" href="#">اتصل بنا</a>
+		<form action="" class="language-picker__form me-auto">	
+			<label for="language-picker-select" class="lang__icon"><fa-icon [icon]="faglobal"></fa-icon></label>		  
+			<select name="language-picker-select" id="language-picker-select" class="language-picker-select">
+			  <option lang="en" value="english">En</option>
+			<option lang="ar" value="arabic">Ar</option>
+		  </select>
+		</form>
+	</div>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav me-auto align-items-lg-center">
+		  <button class="nav-link mx-lg-3" href="#">انشاء حساب</button>
+		  <button class="nav-link">تسجيل الدخول</button>
+		</div>
+	  </div>
+	</div>
   </nav>

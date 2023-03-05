@@ -7,11 +7,13 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 // import { AboutComponent } from './Components/about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './Components/footer/footer.component';
+import { BannerComponent } from './Components/banner/banner.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

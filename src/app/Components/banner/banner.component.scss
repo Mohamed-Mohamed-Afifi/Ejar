@@ -1,0 +1,17 @@
+.banner{
+    direction: rtl;
+    background-color: aqua;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .banner__content{
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 1rem;
+        }
+    }
+}

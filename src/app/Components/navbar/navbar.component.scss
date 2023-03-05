@@ -2,6 +2,9 @@
     direction: rtl;
     align-items: center;
     background-color: red!important;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
     .language-picker__form{
         position: relative;
         display: flex;

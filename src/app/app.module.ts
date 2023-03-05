@@ -9,13 +9,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BannerComponent } from './Components/banner/banner.component';
 import { CatalogComponent } from './Components/catalog/catalog.component';
+import { EventsComponent } from './Components/events/events.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     BannerComponent,
-    CatalogComponent
+    CatalogComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,7 @@ import { BannerComponent } from './Components/banner/banner.component';
 import { CatalogComponent } from './Components/catalog/catalog.component';
 import { EventsComponent } from './Components/events/events.component';
 import { QuestionsComponent } from './Components/questions/questions.component';
+import { HomepageComponent } from './Components/homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { QuestionsComponent } from './Components/questions/questions.component';
     BannerComponent,
     CatalogComponent,
     EventsComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

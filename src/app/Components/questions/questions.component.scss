@@ -1,0 +1,9 @@
+.accordion{
+    direction: rtl;
+    .accordion-button{
+        &::after{
+            margin-right: auto;
+            margin-left: 0;
+        }
+    }
+}

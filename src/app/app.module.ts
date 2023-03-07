@@ -10,6 +10,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { BannerComponent } from './Components/banner/banner.component';
 import { CatalogComponent } from './Components/catalog/catalog.component';
 import { EventsComponent } from './Components/events/events.component';
+import { QuestionsComponent } from './Components/questions/questions.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { EventsComponent } from './Components/events/events.component';
     FooterComponent,
     BannerComponent,
     CatalogComponent,
-    EventsComponent
+    EventsComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,

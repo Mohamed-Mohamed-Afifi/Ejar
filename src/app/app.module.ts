@@ -12,6 +12,7 @@ import { CatalogComponent } from './Components/catalog/catalog.component';
 import { EventsComponent } from './Components/events/events.component';
 import { QuestionsComponent } from './Components/questions/questions.component';
 import { HomepageComponent } from './Components/homepage/homepage.component';
+import { RegistrationComponent } from './Components/registration/registration.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { HomepageComponent } from './Components/homepage/homepage.component';
     CatalogComponent,
     EventsComponent,
     QuestionsComponent,
-    HomepageComponent
+    HomepageComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
